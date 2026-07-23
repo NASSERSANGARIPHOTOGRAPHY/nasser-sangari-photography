@@ -61,11 +61,12 @@ export default async function Home() {
           </p>
 
           {/* The four things, stated plainly. */}
-          <ul className="reveal mt-14 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-4">
+          <ul className="reveal mt-14 grid gap-px bg-line sm:grid-cols-2 lg:grid-cols-5">
             {[
               { name: "Events", detail: "Weddings, launches, corporate nights" },
               { name: "Food", detail: "Menus, hero dishes, interiors" },
               { name: "Film", detail: "Highlight edits and vertical reels" },
+              { name: "Drone", detail: "Aerial stills and video" },
               { name: "Social", detail: "Planned, captioned, posted" },
             ].map((item) => (
               <li key={item.name} className="bg-bg px-6 py-8">
@@ -160,11 +161,17 @@ export default async function Home() {
           </div>
 
           <div className="grid gap-px bg-line sm:grid-cols-2">
-            {packages.map((pkg) => (
+            {packages.map((pkg, i) => (
               <Link
                 key={pkg.id}
                 href={`/book?package=${pkg.id}`}
-                className="reveal group flex flex-col bg-bg p-9 transition-colors duration-500 hover:bg-fg md:p-12"
+                // An odd number of packages would leave the last card orphaned
+                // beside an empty cell; let it run the full width instead.
+                className={`reveal group flex flex-col bg-bg p-9 transition-colors duration-500 hover:bg-fg md:p-12 ${
+                  packages.length % 2 === 1 && i === packages.length - 1
+                    ? "sm:col-span-2"
+                    : ""
+                }`}
               >
                 <h3 className="headline !text-[1.35rem] transition-colors duration-500 group-hover:text-bg">
                   {pkg.name}

@@ -19,6 +19,7 @@ const COLUMNS = [
       { href: "/book?package=events", label: "Events" },
       { href: "/book?package=food", label: "Food & restaurants" },
       { href: "/book?package=video", label: "Video & motion" },
+      { href: "/book?package=drone", label: "Drone & aerial" },
       { href: "/book?package=social", label: "Social media" },
     ],
   },

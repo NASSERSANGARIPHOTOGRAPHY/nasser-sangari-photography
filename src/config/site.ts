@@ -103,6 +103,14 @@ export const packages = [
       "Event films, restaurant reels and social cutdowns. Shot alongside the stills, delivered ready to post.",
   },
   {
+    id: "drone",
+    name: "Drone & Aerial",
+    duration: "Half or full day",
+    price: "on request",
+    blurb:
+      "Aerial stills and video: the venue from above, the coastline, the estate, the scale of a room no ground camera can show. Graded to match the rest of the coverage.",
+  },
+  {
     id: "social",
     name: "Social Media",
     duration: "Monthly",
@@ -248,7 +256,7 @@ export const process = [
 /** The reasons-to-book list. Keep every line true. */
 export const reasons = [
   "Fifteen years shooting events and food across California",
-  "Photo and video from one visit, not two bookings",
+  "Photo, video and drone from one visit, not three bookings",
   "Social media handled end to end: shot, cut, captioned, posted",
   "Vertical reels and stories built for the feed, not cropped for it",
   "Full commercial licensing on restaurant and product work",
