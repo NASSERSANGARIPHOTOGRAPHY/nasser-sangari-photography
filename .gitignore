@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# local booking data
+/data
+
+# original camera files and generated web copies
+/Gallery
+/public/gallery
+# full-bleed variants, rebuilt any time with `npm run wide`
+/public/wide
+
+# loose drop-folders of originals sitting next to the project. Keep them on
+# disk and back them up properly; they don't belong in a code repository.
+# (trailing wildcards: some of these folder names end in spaces)
+/main photos for wedding*
+/new food photos*
+/new food pictures*
+/photos for food*
+*.heic
+*.HEIC
+*.m4v
