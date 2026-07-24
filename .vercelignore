@@ -1,0 +1,35 @@
+# What not to ship to Vercel.
+#
+# The CLI uploads the working directory, which on this machine also holds the
+# camera originals and the loose drop-folders sitting beside the project —
+# several hundred megabytes that have no business in a deploy. The published
+# photographs live in Blob storage and reach the site through
+# src/config/photos.json, so none of these folders are needed to build.
+
+# Camera originals and the web copies generated from them.
+/Gallery
+/public/gallery
+/public/wide
+
+# Loose drop-folders of originals. Some of these names end in a space.
+/main photos for wedding*
+/new food photos*
+/new food pictures*
+/photos for food*
+
+# Stray originals and design files kept next to the project.
+*.heic
+*.HEIC
+*.m4v
+*.pdf
+/ME.png
+
+# Local booking data left over from before the form was removed.
+/data
+
+# Build output and local environment.
+/.next
+/out
+.env*
+.DS_Store
+*.tsbuildinfo

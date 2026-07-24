@@ -1,0 +1,849 @@
+[
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/events/NAS00273.jpg",
+    "category": "Events",
+    "alt": "Photograph — Events",
+    "w": 2400,
+    "h": 1600
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/events/NAS04924.jpg",
+    "category": "Events",
+    "alt": "Photograph — Events",
+    "w": 2133,
+    "h": 3200,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/events/NAS04924.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/123.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1080,
+    "h": 1620
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/12345.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1853,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS00022.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1080,
+    "h": 1616,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/food/NAS00022.jpg",
+      "w": 1080
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS00111.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1080,
+    "h": 1616
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS00194.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 2133,
+    "h": 3200,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/food/NAS00194.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS00301.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS00304.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS00383.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 2400,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS01268.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1719,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS01369-2.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 3200,
+    "h": 2386,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/food/NAS01369-2.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS01369.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS01472.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 2560,
+    "h": 3200,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/food/NAS01472.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS01499.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 2143,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS05729.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS07921.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1616,
+    "h": 1080
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS07926.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1616,
+    "h": 1080
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS09841.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 2133,
+    "h": 3200,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/food/NAS09841.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS09992.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1080,
+    "h": 1616
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10001.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1451,
+    "h": 1814
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10002.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 876
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10003.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 1980
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10004.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1402,
+    "h": 1753
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10005.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 1650
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10006.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 1650
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10007.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 1650
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10008.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1162,
+    "h": 1758
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10009.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 1650
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10010.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 1650
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10011.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 1650
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10012.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 1980
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10013.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 1980
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/food/NAS10014.jpg",
+    "category": "Food",
+    "alt": "Photograph — Food",
+    "w": 1320,
+    "h": 1980
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/6.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC01147.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC01259.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC01287.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC01528.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 2133,
+    "h": 3200,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/portraits/DSC01528.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC01570.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC04324.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC04386.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 2560,
+    "h": 3200,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/portraits/DSC04386.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC05511.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC05569.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC05600.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC05673.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1996,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC05850.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 3200,
+    "h": 2040,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/portraits/DSC05850.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC05879.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 2008,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC05899.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 2400,
+    "h": 1521
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC06016.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 3200,
+    "h": 2046,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/portraits/DSC06016.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC06017.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1996,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/DSC06035.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1867,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/NAS01093.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/NAS03747.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/NAS04802.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 2342,
+    "h": 3200,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/portraits/NAS04802.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/portraits/NAS05104.jpg",
+    "category": "Portraits",
+    "alt": "Photograph — Portraits",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/products/NAS05204.jpg",
+    "category": "Products",
+    "alt": "Photograph — Products",
+    "w": 1616,
+    "h": 1080,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/products/NAS05204.jpg",
+      "w": 1616
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/products/NAS07174.jpg",
+    "category": "Products",
+    "alt": "Photograph — Products",
+    "w": 1616,
+    "h": 1080
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/products/NAS09148-2.jpg",
+    "category": "Products",
+    "alt": "Photograph — Products",
+    "w": 3200,
+    "h": 2133,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/products/NAS09148-2.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/products/NAS09368-2-3.jpg",
+    "category": "Products",
+    "alt": "Photograph — Products",
+    "w": 2400,
+    "h": 1773
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC00383.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2726,
+    "h": 3200,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/weddings/DSC00383.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC00430.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2008,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC00458.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 3200,
+    "h": 2133,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/weddings/DSC00458.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC00665.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC00826.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2032,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC00906.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1990,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC00932.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2020,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC00934.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2001,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC01891.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC01932.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2400,
+    "h": 1600
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC02054.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2014,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC02115.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2400,
+    "h": 1720
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC02217.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2008,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC02288.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 3200,
+    "h": 2133,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/weddings/DSC02288.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC02336r.jpg",
+    "category": "Weddings",
+    "alt": "DSC02336r",
+    "caption": "DSC02336r",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC02352.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC03176.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2400,
+    "h": 1600
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC03193.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC03193d.jpg",
+    "category": "Weddings",
+    "alt": "DSC03193d",
+    "caption": "DSC03193d",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC03291.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2400,
+    "h": 1600
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC03396.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2400,
+    "h": 1600
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC03503.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2400,
+    "h": 1600
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC03515.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2400,
+    "h": 1600
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC03524s.jpg",
+    "category": "Weddings",
+    "alt": "DSC03524s",
+    "caption": "DSC03524s",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC05594.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC05987.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1989,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08018.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 3200,
+    "h": 2133,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/weddings/DSC08018.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08059.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2400,
+    "h": 1600
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08081.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2400,
+    "h": 1600
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08297.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2400,
+    "h": 1507
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08378.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08479.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08536.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2002,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08579.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1983,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08697.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08722.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/DSC08744.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/FULL%20FILM%20.jpg",
+    "category": "Weddings",
+    "alt": "FULL FILM",
+    "caption": "FULL FILM",
+    "w": 2400,
+    "h": 1350
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/NAS00582.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1080,
+    "h": 1616
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/NAS00957.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/NAS01014.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/NAS04486.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1080,
+    "h": 1616
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/NAS04530.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/NAS04606.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/NAS07938.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1600,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/_DSC6648.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2702,
+    "h": 3200,
+    "wide": {
+      "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/wide/weddings/_DSC6648.jpg",
+      "w": 3200
+    }
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/_DSC7444.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1920,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/_DSC7522.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 1990,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/_DSC7970.jpg",
+    "category": "Weddings",
+    "alt": "Photograph — Weddings",
+    "w": 2091,
+    "h": 2400
+  },
+  {
+    "src": "https://afuspyjphjtmhz2s.public.blob.vercel-storage.com/gallery/weddings/chat%201.jpg",
+    "category": "Weddings",
+    "alt": "Chat 1",
+    "caption": "Chat 1",
+    "w": 1080,
+    "h": 1920
+  }
+]

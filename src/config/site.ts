@@ -60,7 +60,7 @@ export const site = {
    * Only used to build absolute links for Google and for the preview card
    * that appears when someone shares the site. Safe to leave empty.
    */
-  url: "",
+  url: "https://nasser-sangari-photography.vercel.app",
 
   email: "nasser.sangari94@gmail.com",
   phone: "+1 (562) 504-8854",
