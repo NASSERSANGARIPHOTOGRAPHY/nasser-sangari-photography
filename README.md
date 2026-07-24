@@ -91,14 +91,71 @@ at `/admin`.
 
 That file is gitignored, so real client details never end up in version control.
 
-### Before this site goes public, two things must change
+### `/admin` is password-protected
 
-1. **`/admin` has no password on it.** Anyone who guesses the URL sees your clients'
-   names, emails, and phone numbers. It's fine on localhost; it is not fine on the open
-   internet. Add authentication before deploying.
-2. **Nothing emails you.** A request just lands in the JSON file, so you have to check
-   `/admin` to know it arrived. `src/app/api/bookings/route.ts` has the spot marked where
-   an email, SMS, or calendar hook goes.
+`src/proxy.ts` puts a password prompt in front of it. **It stays switched off (503) until
+you set `ADMIN_PASSWORD`** — it fails closed on purpose, so a missing setting can never
+expose your client list. Copy `.env.example` to `.env.local` for local use, and set the
+same value in your host's environment settings before deploying.
+
+### Nothing emails you yet
+
+A request lands in the JSON file, so you have to open `/admin` to know it arrived.
+`src/app/api/bookings/route.ts` has the spot marked where an email, SMS, or calendar hook
+goes.
+
+---
+
+## Going live
+
+### Read this first: where enquiries are stored
+
+Requests are written to `data/bookings.json` **on the server's own disk**. That works on a
+machine with a real, persistent filesystem — a VPS, a Raspberry Pi, a Docker host with a
+mounted volume.
+
+It does **not** work on Vercel, Netlify, Cloudflare Pages, or any host that rebuilds the
+app on deploy. Those give the app a read-only or throwaway disk, so the write either fails
+or is wiped by the next deploy. **Enquiries would be lost.**
+
+The form no longer pretends otherwise: if the write fails it returns a 503 and tells the
+visitor to email you instead, and it logs the full request so it survives in your host's
+logs. But that's a safety net, not a solution.
+
+So pick one before launch:
+
+| If you host on | Do this |
+| --- | --- |
+| A VPS or any box with a real disk | Nothing. It works as-is. Back up `data/bookings.json`. |
+| Vercel / Netlify / Cloudflare | Replace the storage in `src/lib/bookings.ts` with a database or an email send. Only that one file needs changing. |
+
+The simplest fix for a photographer is to **email each enquiry to yourself** instead of
+storing it. One call to a service like Resend or Postmark inside
+`src/app/api/bookings/route.ts` and you get a message the moment someone books, with no
+database and no `/admin` to check.
+
+### Checklist
+
+1. **Set your domain.** Put it in `url` in `src/config/site.ts`, e.g.
+   `"https://nassersangari.com"`. This makes Google's canonical link and the preview card
+   that appears when the site is shared on WhatsApp or Instagram point at the right place.
+   On Vercel this is auto-detected if you leave it blank, but setting it is better.
+2. **Set `ADMIN_PASSWORD`** in your host's environment settings. Long and random.
+3. **Decide the storage question above.**
+4. **Rebuild after adding photos** — `npm run photos`, then `npm run wide`, then
+   `npm run build`. The home page is prerendered, so new photos need a rebuild.
+5. **Check it.** `npm run build && npm start`, then open the site, submit a test enquiry,
+   and confirm it appears at `/admin`. Delete the test afterwards.
+
+### Deploying to Vercel
+
+```bash
+npx vercel            # first run links the project
+npx vercel --prod     # publish
+```
+
+Set `ADMIN_PASSWORD` under Project → Settings → Environment Variables, and remember the
+storage caveat above.
 
 ---
 

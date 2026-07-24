@@ -33,6 +33,17 @@ export function readBookings(): Booking[] {
   }
 }
 
+/**
+ * Thrown when the request could not be written to disk.
+ *
+ * This matters in production: most modern hosts (Vercel, Netlify, Cloudflare
+ * and any container that rebuilds on deploy) give the app a read-only or
+ * throwaway filesystem, so this write fails or is wiped by the next deploy.
+ * The caller must surface it rather than tell the visitor everything is fine,
+ * because a silently dropped enquiry is a lost booking.
+ */
+export class BookingStorageError extends Error {}
+
 export function addBooking(input: BookingInput): Booking {
   const booking: Booking = {
     ...input,
@@ -40,8 +51,13 @@ export function addBooking(input: BookingInput): Booking {
     createdAt: new Date().toISOString(),
   };
 
-  fs.mkdirSync(DATA_DIR, { recursive: true });
-  fs.writeFileSync(FILE, JSON.stringify([booking, ...readBookings()], null, 2));
+  try {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+    fs.writeFileSync(FILE, JSON.stringify([booking, ...readBookings()], null, 2));
+  } catch (cause) {
+    throw new BookingStorageError("Could not save the booking request.", { cause });
+  }
+
   return booking;
 }
 
