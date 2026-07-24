@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { story } from "@/config/site";
+import { site, story } from "@/config/site";
 
 /**
  * The About section: a portrait held against three short movements of the
@@ -86,9 +85,9 @@ export function Story() {
               <p className="max-w-2xl text-[clamp(1.2rem,2.1vw,1.6rem)] leading-[1.5] font-light tracking-[-0.015em]">
                 {story.closing}
               </p>
-              <Link href="/book" className="link-line mt-8 inline-block">
+              <a href={`mailto:${site.email}`} className="link-line mt-8 inline-block">
                 Check your date
-              </Link>
+              </a>
             </div>
           </div>
         </div>

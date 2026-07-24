@@ -29,9 +29,9 @@ export default function NotFound() {
           <Link href="/#work" className="btn btn-primary">
             View the portfolio
           </Link>
-          <Link href="/book" className="btn btn-secondary">
-            Book a shoot
-          </Link>
+          <a href={`mailto:${site.email}`} className="btn btn-secondary">
+            Enquire about a shoot
+          </a>
         </div>
 
         <div className="mt-14 border-t border-line pt-8">

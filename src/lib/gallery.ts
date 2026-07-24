@@ -78,12 +78,40 @@ function readWideManifest(): Map<string, number> {
 }
 
 /**
- * Reads every photograph out of /public/gallery.
+ * The published photographs, written by `npm run upload`.
  *
- * Files directly in the folder    -> category "Selected"
+ * The pictures themselves live in Vercel Blob rather than in git, so this file
+ * is the only trace of them in the repository: a list of CDN URLs and sizes.
+ * Absent on a fresh clone that has not uploaded yet, which is why getPhotos
+ * still knows how to read the local folder.
+ */
+function readPublished(): Photo[] | null {
+  const file = path.join(process.cwd(), "src", "config", "photos.json");
+  try {
+    if (!fs.existsSync(file)) return null;
+    const parsed: unknown = JSON.parse(fs.readFileSync(file, "utf8"));
+    if (!Array.isArray(parsed) || parsed.length === 0) return null;
+    return parsed as Photo[];
+  } catch {
+    // A broken manifest falls through to the local folder below.
+    return null;
+  }
+}
+
+/**
+ * Every photograph on the site.
+ *
+ * Prefers the uploaded manifest — that is what production serves. Falls back
+ * to reading /public/gallery straight off disk, so the site still runs locally
+ * between `npm run photos` and `npm run upload`.
+ *
+ * Files directly in the folder      -> category "Selected"
  * Files in /public/gallery/weddings -> category "Weddings"
  */
 export function getPhotos(): Photo[] {
+  const published = readPublished();
+  if (published) return published;
+
   if (!fs.existsSync(GALLERY_DIR)) return [];
 
   const sizes = readManifest();

@@ -53,9 +53,9 @@ export function Hero({
             </p>
 
             <div className="reveal flex flex-wrap items-center gap-9">
-              <Link href="/book" className="link-line text-white">
+              <a href={`mailto:${site.email}`} className="link-line text-white">
                 Enquire now
-              </Link>
+              </a>
               <Link href="/#work" className="link-line text-white/70 hover:text-white">
                 Full portfolio
               </Link>

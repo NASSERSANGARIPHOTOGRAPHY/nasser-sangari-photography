@@ -85,12 +85,12 @@ export function Nav() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/book"
+          <a
+            href={`mailto:${site.email}`}
             className={`border px-5 py-2 text-[0.7rem] font-semibold tracking-[0.2em] uppercase transition-colors ${onCover ? "border-white text-white hover:bg-white hover:text-black" : "border-fg bg-fg text-bg hover:bg-transparent hover:text-fg"}`}
           >
-            Book
-          </Link>
+            Enquire
+          </a>
         </div>
 
         <button
@@ -125,13 +125,13 @@ export function Nav() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/book"
+          <a
+            href={`mailto:${site.email}`}
             onClick={() => setOpen(false)}
             className="btn btn-primary mt-7 w-full"
           >
-            Book a shoot
-          </Link>
+            Enquire about a shoot
+          </a>
         </div>
       )}
     </header>

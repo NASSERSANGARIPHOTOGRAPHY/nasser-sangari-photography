@@ -2,6 +2,12 @@ import Link from "next/link";
 import { site } from "@/config/site";
 import { Socials } from "@/components/Socials";
 
+/** A mailto for the given service, or a plain enquiry when none is named. */
+function enquire(service?: string): string {
+  const subject = service ? `${service} enquiry` : "Photography enquiry";
+  return `mailto:${site.email}?subject=${encodeURIComponent(subject)}`;
+}
+
 const COLUMNS = [
   {
     heading: "Work",
@@ -13,14 +19,16 @@ const COLUMNS = [
     ],
   },
   {
-    heading: "Book",
+    heading: "Enquire",
+    // Straight to the inbox, with the service already in the subject line so
+    // the reply can get to the point.
     links: [
-      { href: "/book", label: "Reserve a date" },
-      { href: "/book?package=events", label: "Events" },
-      { href: "/book?package=food", label: "Food & restaurants" },
-      { href: "/book?package=video", label: "Video & motion" },
-      { href: "/book?package=drone", label: "Drone & aerial" },
-      { href: "/book?package=social", label: "Social media" },
+      { href: enquire(), label: "Check a date" },
+      { href: enquire("Events"), label: "Events" },
+      { href: enquire("Food & restaurants"), label: "Food & restaurants" },
+      { href: enquire("Video & motion"), label: "Video & motion" },
+      { href: enquire("Drone & aerial"), label: "Drone & aerial" },
+      { href: enquire("Social media"), label: "Social media" },
     ],
   },
 ];
@@ -56,12 +64,21 @@ export function Footer() {
               <ul className="mt-4 space-y-2.5">
                 {column.links.map((link) => (
                   <li key={link.href + link.label}>
-                    <Link
-                      href={link.href}
-                      className="text-sm text-fg-dim transition-colors hover:text-fg"
-                    >
-                      {link.label}
-                    </Link>
+                    {link.href.startsWith("mailto:") ? (
+                      <a
+                        href={link.href}
+                        className="text-sm text-fg-dim transition-colors hover:text-fg"
+                      >
+                        {link.label}
+                      </a>
+                    ) : (
+                      <Link
+                        href={link.href}
+                        className="text-sm text-fg-dim transition-colors hover:text-fg"
+                      >
+                        {link.label}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>

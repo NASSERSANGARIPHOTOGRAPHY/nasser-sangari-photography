@@ -162,9 +162,9 @@ export default async function Home() {
 
           <div className="grid gap-px bg-line sm:grid-cols-2">
             {packages.map((pkg, i) => (
-              <Link
+              <a
                 key={pkg.id}
-                href={`/book?package=${pkg.id}`}
+                href={`mailto:${site.email}?subject=${encodeURIComponent(`${pkg.name} enquiry`)}`}
                 // An odd number of packages would leave the last card orphaned
                 // beside an empty cell; let it run the full width instead.
                 className={`reveal group flex flex-col bg-bg p-9 transition-colors duration-500 hover:bg-fg md:p-12 ${
@@ -185,7 +185,7 @@ export default async function Home() {
                 <span className="link-line mt-8 self-start transition-colors duration-500 group-hover:text-bg">
                   Enquire
                 </span>
-              </Link>
+              </a>
             ))}
           </div>
         </div>
@@ -251,9 +251,9 @@ export default async function Home() {
               abandoned below the icons. */}
           <div className="grid gap-14 lg:grid-cols-2 lg:items-center lg:gap-20">
             <div className="reveal">
-              <p className="eyebrow">Why book me</p>
+              <p className="eyebrow">Why hire me</p>
               <h2 className="headline mt-5">
-                One booking,
+                One visit,
                 <br />
                 the whole job
               </h2>
@@ -308,11 +308,14 @@ export default async function Home() {
             business day.
           </p>
           <div className="mt-12 flex flex-wrap justify-center gap-4">
-            <Link href="/book" className="btn btn-primary">
-              Enquire now
-            </Link>
-            <a href={`mailto:${site.email}`} className="btn btn-secondary">
+            <a href={`mailto:${site.email}`} className="btn btn-primary">
               Email me
+            </a>
+            <a
+              href={`tel:${site.phone.replace(/[^+\d]/g, "")}`}
+              className="btn btn-secondary"
+            >
+              Call me
             </a>
           </div>
         </div>

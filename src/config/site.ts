@@ -76,7 +76,7 @@ export const site = {
   },
 } as const;
 
-/** The packages shown on the booking form. Add, remove, rename freely. */
+/** The services shown on the homepage. Add, remove, rename freely. */
 export const packages = [
   {
     id: "events",
@@ -253,10 +253,10 @@ export const process = [
   { step: "Deliver", detail: "Edited gallery, reels and captions, posted for you if you want." },
 ] as const;
 
-/** The reasons-to-book list. Keep every line true. */
+/** The reasons-to-hire list. Keep every line true. */
 export const reasons = [
   "Fifteen years shooting events and food across California",
-  "Photo, video and drone from one visit, not three bookings",
+  "Photo, video and drone from one visit, not three separate hires",
   "Social media handled end to end: shot, cut, captioned, posted",
   "Vertical reels and stories built for the feed, not cropped for it",
   "Full commercial licensing on restaurant and product work",
